@@ -53,7 +53,7 @@ const ProjectsLinks = ({ live, repo }: { live?: string; repo?: string }) => {
             target="_blank"
             href={live}
           >
-            Visit Website
+            Live Demo
             <ArrowUpRight className="ml-1 w-4 h-4" />
           </a>
         </Button>
@@ -164,8 +164,9 @@ const projects: Project[] = [
     id: "campus2career",
     category: "Career Roadmap & EdTech",
     title: "Campus2Career",
-    src: "/assets/projects-screenshots/campus2career/landing.png",
-    screenshots: ["landing.png"],
+    src: "/assets/projects-screenshots/campus2career/Campus2Career.png",
+    screenshots: ["Campus2Career.png"],
+    live: "https://campus2-career-phi.vercel.app",
     skills: {
       frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
       backend: [
@@ -196,7 +197,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/campus2career/landing.png`,
+              `${BASE_PATH}/campus2career/Campus2Career.png`,
             ]}
           />
 
@@ -215,8 +216,9 @@ const projects: Project[] = [
     id: "stashly",
     category: "AI Utility App",
     title: "Stashly",
-    src: "/assets/projects-screenshots/stashly/landing.png",
-    screenshots: ["landing.png"],
+    src: "/assets/projects-screenshots/stashly/Satshly.png",
+    screenshots: ["Satshly.png"],
+    live: "https://stashly-btntkkik.manus.space/",
     skills: {
       frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
       backend: [
@@ -245,7 +247,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/stashly/landing.png`,
+              `${BASE_PATH}/stashly/Satshly.png`,
             ]}
           />
 
@@ -263,8 +265,8 @@ const projects: Project[] = [
     id: "threatlensai",
     category: "AI Cybersecurity",
     title: "ThreatLensAI",
-    src: "/assets/projects-screenshots/threatlensai/landing.png",
-    screenshots: ["landing.png"],
+    src: "/assets/projects-screenshots/threatlensai/ThreatLensAI.png",
+    screenshots: ["ThreatLensAI.png"],
     skills: {
       frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
       backend: [
@@ -298,7 +300,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/threatlensai/landing.png`,
+              `${BASE_PATH}/threatlensai/ThreatLensAI.png`,
             ]}
           />
 
@@ -315,8 +317,9 @@ const projects: Project[] = [
     id: "dormfix",
     category: "Hostel Management Platform",
     title: "DormFix",
-    src: "/assets/projects-screenshots/dormfix/landing.png",
-    screenshots: ["landing.png"],
+    src: "/assets/projects-screenshots/dormfix/DormFix.png",
+    screenshots: ["DormFix.png"],
+    live: "https://dorm-fix-tau.vercel.app",
     skills: {
       frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
       backend: [
@@ -349,7 +352,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/dormfix/landing.png`,
+              `${BASE_PATH}/dormfix/DormFix.png`,
             ]}
           />
 
@@ -367,8 +370,8 @@ const projects: Project[] = [
     id: "digitallegacy",
     category: "Security & Database Management",
     title: "Digital Legacy & Password Vault",
-    src: "/assets/projects-screenshots/digitallegacy/landing.png",
-    screenshots: ["landing.png"],
+    src: "/assets/projects-screenshots/digitallegacy/DigitalLegacyVault.png",
+    screenshots: ["DigitalLegacyVault.png"],
     skills: {
       frontend: [PROJECT_SKILLS.react, PROJECT_SKILLS.tailwind],
       backend: [
@@ -398,7 +401,7 @@ const projects: Project[] = [
           </p>
           <SlideShow
             images={[
-              `${BASE_PATH}/digitallegacy/landing.png`,
+              `${BASE_PATH}/digitallegacy/DigitalLegacyVault.png`,
             ]}
           />
 

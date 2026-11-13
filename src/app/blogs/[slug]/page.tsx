@@ -10,6 +10,9 @@ import RevealAnimation from "@/components/reveal-animations";
 
 export async function generateStaticParams() {
   const posts = getBlogPosts();
+  if (posts.length === 0) {
+    return [{ slug: "_not-found" }];
+  }
   return posts.map((post) => ({
     slug: post.slug,
   }));

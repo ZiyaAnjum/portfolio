@@ -39,7 +39,3 @@ B.E. AI & ML student at Anjuman Institute of Technology and Management, Bhatkal 
 - Rabita Award & Student of the Year
 - IBM Machine Learning Professional Certificate (Coursera), Google AI Essentials (Coursera), AWS AI Practitioner, DSA for DeepTech Bootcamp (AICTE)
 
----
-
-## 📜 Credits
-Template originally created by [Naresh Khatri](https://github.com/Naresh-Khatri/3d-portfolio).

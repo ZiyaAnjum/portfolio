@@ -21,18 +21,6 @@ function Footer() {
           </Suspense>{" "}
           {config.author}. All rights reserved.
         </p>
-        <span className="hidden sm:inline text-border">|</span>
-        <p>
-          Template by{" "}
-          <a
-            href="https://github.com/Naresh-Khatri/3d-portfolio"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-foreground transition-colors"
-          >
-            Naresh Khatri
-          </a>
-        </p>
       </div>
       <SocialMediaButtons />
       <nav className="flex gap-4 sm:gap-6 z-10">

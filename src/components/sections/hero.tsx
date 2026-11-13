@@ -81,7 +81,7 @@ const HeroSection = () => {
                   </p>
                 </BlurIn>
 
-                <div id="about" className="scroll-mt-24">
+                <div className="scroll-mt-24">
                   <BlurIn delay={1.4}>
                     <p className="mt-2 text-sm sm:text-base italic text-foreground/90 font-medium">
                       &ldquo;I build and ship full-stack and AI-powered products.&rdquo;

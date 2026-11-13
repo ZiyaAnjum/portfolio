@@ -48,16 +48,17 @@ const addClassNameRecursively = (
   children: ReactNode,
   className: string
 ): ReactNode => {
-  const foo = (child: ReactNode) => {
-    if (!isValidElement(child)) return child;
-
-    const childProps = child.props as Record<string, unknown>;
-    return cloneElement(child, {
+  if (isValidElement(children)) {
+    const childProps = children.props as Record<string, unknown>;
+    return cloneElement(children, {
       className: `${(childProps.className as string) || ""} ${className}`.trim(),
       children: addClassNameRecursively(childProps.children as ReactNode, className),
     } as Record<string, unknown>);
-  };
-  return Children.map(children, foo);
+  }
+  if (Array.isArray(children)) {
+    return Children.map(children, (child) => addClassNameRecursively(child, className));
+  }
+  return children;
 };
 
 const Button = forwardRef<HTMLButtonElement, ButtonProps>(
